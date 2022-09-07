@@ -1,0 +1,51 @@
+{
+    "name": "dbd-stats",
+    "version": "1.0.0",
+    "private": true,
+    "description": "dbd-stats",
+    "author": "axonneq",
+    "keywords": [
+        "dbd-stats",
+        "Dead By Daylight Player Statistics",
+        "Skill-Check Simulator"
+    ],
+    "scripts": {
+        "dev": "gatsby develop -H 0.0.0.0 -p 8000",
+        "dev:server": "start-server.bat",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby clean && gatsby build && gatsby serve -H 0.0.0.0 -p 8000",
+        "clean": "gatsby clean",
+        "deploy": "gatsby clean && gatsby build && gh-pages -d public -b master"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-regular-svg-icons": "^5.15.3",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@material-ui/core": "^4.12.1",
+        "apexcharts": "^3.27.3",
+        "axios": "^0.21.1",
+        "dayjs": "^1.10.6",
+        "gatsby": "^3.6.2",
+        "gatsby-plugin-google-gtag": "^3.14.0",
+        "gatsby-plugin-image": "^1.7.1",
+        "gatsby-plugin-manifest": "^3.14.0",
+        "gatsby-plugin-no-sourcemaps": "^3.11.0",
+        "gatsby-plugin-sass": "^4.7.1",
+        "gatsby-plugin-sharp": "^3.7.1",
+        "gatsby-plugin-sitemap": "^4.3.1",
+        "gatsby-source-filesystem": "^3.7.1",
+        "gatsby-transformer-sharp": "^3.7.1",
+        "gh-pages": "^3.2.3",
+        "localforage": "^1.9.0",
+        "primeicons": "^4.1.0",
+        "primereact": "^6.4.1",
+        "react": "^17.0.1",
+        "react-apexcharts": "^1.3.9",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0",
+        "react-reveal": "^1.2.2",
+        "sass": "^1.35.1"
+    }
+}
